@@ -10,7 +10,7 @@ unordered_map<char,int>freq;
         while(j<n){
             freq[nums[j]]++;
 
-            while(freq[nums[j]]>1 && freq[nums[i]]>0){
+            while(freq[nums[j]]>1 ){
                
                 freq[nums[i]]--;
                 i++;
